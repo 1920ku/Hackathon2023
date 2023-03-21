@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!---Coding By CoderGirl!--->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<title> Profle Card UI Design | CoderGirl </title>-->
+    <!---Custom Css File!--->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .main {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url(images/back.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .profile-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 400px;
+            width: 100%;
+            border-radius: 25px;
+            padding: 30px;
+            border: 1px solid #ffffff40;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .image {
+            position: relative;
+            height: 150px;
+            width: 150px;
+        }
+
+        .image .profile-pic {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .data {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .data h2 {
+            font-size: 33px;
+            font-weight: 600;
+        }
+
+
+        .row {
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .info {
+            /* text-align: center;
+            padding: 0 20px; */
+            position: relative;
+            right: 70px;
+            font-size: 18px;
+            position: relative;
+            left: 40px;
+        }
+
+        .buttons {
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .buttons .btn {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 8px 25px;
+            border-radius: 25px;
+            font-size: 18px;
+            white-space: nowrap;
+            background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+        }
+
+        .buttons .btn:hover {
+            box-shadow: inset 0 5px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        p {
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            top: 22px;
+            left: -131px;
+        }
+
+        .info2 {
+            position: relative;
+            right: -31px;
+        }
+
+        .info3 {
+            position: relative;
+            right: -43px;
+        }
+
+        img {
+            height: 163px;
+            width: 323px;
+            border-radius: 36px;
+            position: relative;
+            top: 190px;
+            right: -606px;
+        }
+
+        h6 {
+            position: relative;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            right: 125px;
+            top: 15px;
+            font-size: 15px;
+
+        }
+
+    </style>
+
+    <img src="Hotpot (1).png" alt="oops image not found ">
+    
+    
+    <section class="main">
+        <div class="profile-card">
+            <div class="image">
+                <!--<img src="images/profile.jpg" alt="" class="profile-pic">-->
+            </div>
+            <div class="data">
+                <h6>I'm</h6>
+                <h2>Mohit Saini</h2>
+                
+            </div>
+            
+            <div class="info3">
+                <p>Student</p>
+               
+
+            </div>
+            <div class="info2">
+                <p>Age</p>
+
+            </div>
+            <div class="info">
+                <p>Email</p>
+
+            </div>
+
+            <div class="info">
+                <p>Phone</p>
+
+            </div>
+
+            <div class="buttons">
+                <a href="#" class="btn">Show profile status</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
